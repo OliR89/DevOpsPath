@@ -1492,7 +1492,7 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps (Oli's Page)</h4>",
+                            "value": "<h4>Willkommen bei DevOps (Oli, Sala und Manpreet)</h4>",
                             "newRow": true
                         },
                         {
@@ -1500,6 +1500,15 @@ export class GuiModel {
                             "name": { default: "Studiengang" },
                             "icon": "fab-accessible-icon",
                             "color": "yellow",
+                            "page": "studyProgramPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Universität" },
+                            "icon": "fab-accessible-icon",
+                            "color": "green",
                             "page": "studyProgramPage",
                             "width": 2,
                             "newRow": true,
