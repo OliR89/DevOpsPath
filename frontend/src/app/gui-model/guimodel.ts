@@ -1506,30 +1506,21 @@ export class GuiModel {
                         },
                         {
                             "type": "button",
-                            "name": { default: "Studiengang" },
+                            "name": { default: "Universität" },
                             "icon": "fab-accessible-icon",
-                            "color": "yellow",
+                            "color": "green",
                             "page": "studyProgramPage",
                             "width": 2,
-                            "newRow": true,
-                        },
-                    ]
-                },
-                {
-                    "id" : "modulePage",
-                    "elementList": [
-                        {
-                            "type": "backbutton",
+                            "newRow": false,
                         },
                         {
-                            "type": "newButton",
-                            "name": { default:"Neues Modul" },
-                            "icon": "fa-user",
-                            "color": "yellow",
+                            "type": "button",
+                            "name": { default: "Fachhochschule" },
+                            "icon": "fab-accessible-icon",
+                            "color": "blue",
+                            "page": "studyProgramPage",
                             "width": 2,
-                            "form" : {
-                                "form" : "ModuleForm"
-                            }
+                            "newRow": false,
                         },
                     ]
                 },
