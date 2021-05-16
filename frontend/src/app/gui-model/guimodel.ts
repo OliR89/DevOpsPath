@@ -1508,10 +1508,10 @@ export class GuiModel {
                             "type": "button",
                             "name": { default: "Universität" },
                             "icon": "fab-accessible-icon",
-                            "color": "green",
+                            "color": "yellow",
                             "page": "studyProgramPage",
                             "width": 2,
-                            "newRow": true,
+                            "newRow": false,
                         },
                     ]
                 },
