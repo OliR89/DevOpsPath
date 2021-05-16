@@ -1506,12 +1506,12 @@ export class GuiModel {
                         },
                         {
                             "type": "button",
-                            "name": { default: "Universität" },
+                            "name": { default: "Studiengang" },
                             "icon": "fab-accessible-icon",
                             "color": "yellow",
                             "page": "studyProgramPage",
                             "width": 2,
-                            "newRow": false,
+                            "newRow": true,
                         },
                     ]
                 },
