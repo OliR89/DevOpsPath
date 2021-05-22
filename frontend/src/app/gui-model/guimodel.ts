@@ -1498,30 +1498,39 @@ export class GuiModel {
                         {
                             "type": "button",
                             "name": { default: "Studiengang" },
-                            "icon": "fab-accessible-icon",
+                            "icon": "fa-square",
                             "color": "yellow",
                             "page": "studyProgramPage",
                             "width": 2,
-                            "newRow": true,
+                            "newRow": true
                         },
                         {
                             "type": "button",
                             "name": { default: "Universität" },
-                            "icon": "fab-accessible-icon",
+                            "icon": "fa-home",
                             "color": "green",
-                            "page": "studyProgramPage",
+                            "page": "UniPage",
                             "width": 2,
-                            "newRow": false,
+                            "newRow": true
                         },
                         {
                             "type": "button",
-                            "name": { default: "Fachhochschule" },
-                            "icon": "fab-accessible-icon",
+                            "name": { default: "NPM Infos" },
+                            "icon": "fa-code",
                             "color": "blue",
-                            "page": "studyProgramPage",
+                            "page": "NPMinfoPage",
                             "width": 2,
-                            "newRow": false,
+                            "newRow": true
                         },
+                        {
+                            "type": "linkButton",
+                            "name": "Github",
+                            "icon": "fa-git",
+                            "color": "purple",
+                            "width": 2,
+                            "url": "https://github.com/OliR89/DevOpsPath",
+                            "newRow": true
+                        }
                     ]
                 },
                 {
@@ -1550,6 +1559,54 @@ export class GuiModel {
                             "form": {
                                 "form": "StudyProgramForm"
                             }
+                        }
+                    ]
+                },
+                {
+                    "id": "UniPage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "linkButton",
+                            "name": "ZHAW",
+                            "icon": "fa-building",
+                            "width": 2,
+                            "url": "https://www.zhaw.ch/de/hochschule/",
+                            "newRow": false
+                        },
+                        {
+                            "type": "linkButton",
+                            "name": "Moodle",
+                            "icon": "fa-file-word",
+                            "width": 2,
+                            "url": "https://moodle1.zhaw.ch/?redirect=0",
+                            "newRow": false
+                        }
+                    ]
+                },
+                {
+                    "id": "NPMinfoPage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "linkButton",
+                            "name": "NPMFramework",
+                            "icon": "fa-align-left",
+                            "width": 2,
+                            "url": "https://www.npmjs.com/package/path-framework",
+                            "newRow": false
+                        },
+                        {
+                            "type": "linkButton",
+                            "name": "Fonts",
+                            "icon": "fa-font",
+                            "width": 2,
+                            "url": "https://fontawesome.com/icons?d=gallery&p=2&m=freek",
+                            "newRow": false
                         }
                     ]
                 },

@@ -123,6 +123,11 @@ export class DevOpsTranslationService extends TranslationService {
             "SignedInAs": "Angemeldet als",
             "Translation": "Übersetzung",
             "Translations": "Übersetzungen",
+            "ZHAW": "ZHAW",
+            "Github": "Github Repo",
+            "Moodle": "Moodle",
+            "NPMFramework": "NPM Framework",
+            "Fonts": "Icons und Schriften",
             "de": "Deutsch",
             "en": "Englisch"
         };
