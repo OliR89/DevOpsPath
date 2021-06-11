@@ -1517,7 +1517,7 @@ export class GuiModel {
                             "type": "button",
                             "name": { default: "NPM Infos" },
                             "icon": "fa-code",
-                            "color": "blue",
+                            "color": "pink",
                             "page": "NPMinfoPage",
                             "width": 2,
                             "newRow": true
