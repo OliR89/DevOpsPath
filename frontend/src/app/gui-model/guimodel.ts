@@ -1587,6 +1587,30 @@ export class GuiModel {
                     ]
                 },
                 {
+                    "id": "UniPage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "linkButton",
+                            "name": "Salas Linkedin Profile",
+                            "icon": "fa-building",
+                            "width": 2,
+                            "url": "https://linkedin.com/in/salazym",
+                            "newRow": false
+                        },
+                        {
+                            "type": "linkButton",
+                            "name": "Salas Github",
+                            "icon": "fa-file-word",
+                            "width": 2,
+                            "url": "https://github.com/zumbesa1",
+                            "newRow": false
+                        }
+                    ]
+                },
+                {
                     "id": "NPMinfoPage",
                     "elementList": [
                         {
